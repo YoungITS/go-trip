@@ -1,0 +1,232 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .main__img {
+        max-width: 280px;
+        width: 100%;
+    }
+    
+    .main__card {
+        min-width: 0px;
+    }
+    
+    .main__text {
+        font-size: 30px;
+    }
+    
+    .main__image {
+        max-width: 420px;
+        width: 100%;
+    }
+    
+    .main__description {
+        font-size: 30px;
+    }
+    
+    .header__title {
+        font-size: 70px;
+    }
+    
+    .header__desc {
+        font-size: 30px;
+    }
+    
+    .header__butt {
+        max-width: 180px;
+        width: 100%;
+    }
+    
+    .menu {
+        font-size: 14px;
+    }
+    .main__paragraf {
+        font-size: 16px;
+    }
+    
+    .main__option {
+       font-size: 20px;
+    }
+    
+    .main__contact {
+       font-size: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+       max-width: 720px;   
+     }     
+     .header__title {
+        font-size: 55px;
+     }
+     
+     .header__desc {
+        font-size: 25px;
+     }
+     
+     .header__butt {
+        max-width: 150px;
+        width: 100%;
+     }
+     
+     .main__text {
+        font-size: 25px;
+     }
+     
+     .main__line {
+        flex-direction: column;
+     }
+     
+     .main__image {
+        max-width: 350px;
+        width: 100%;
+    }
+    
+    .main__description {
+        margin-top: 70px;
+    }
+    
+    
+    .main__contact {
+        font-size: 25px;
+    }
+    
+    .main__hrefs {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main__info {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    
+    .main__numail {
+        font-size: 18px;
+    }
+    
+    .main__mailr {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;  
+    }
+    
+    .header__title {
+        font-size: 50px;
+    }
+    
+    .header__desc {
+        font-size: 20px;
+    }
+    
+    .header__butt {
+        max-width: 130px;
+    }
+    
+    .main__card {
+        max-width: 200px;
+        width: 100%;
+    }
+    
+    .main__cards {
+        justify-content: center ;
+        flex-wrap: wrap;
+        gap: 30px;
+        }
+        
+    .footer__titler {
+            font-size: 14px;
+        }
+        
+    .footer__input {
+            max-width: 140px;
+            width: 100%;
+        }
+}
+
+@media (max-width: 576px) {
+    .nav__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .header__title {
+        font-size: 40px;
+    }
+    
+    .header__butt {
+        max-width: 100px;
+        width: 100%;
+    }
+    
+    .main__paragraf {
+        font-size: 14px;
+    }
+    
+    .main__page {
+        font-size: 14px;
+    }
+    
+    .main__description {
+        font-size: 25px;
+    }
+    
+    .main__card {
+        max-width: 180px;
+        width: 100%;
+    } 
+    
+    .main__colum {
+        max-width: 400px;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .main__card {
+        max-width: 130px;
+        width: 100%;
+    } 
+    
+    .footer__input {
+        max-width: 100px;
+        width: 100% 
+    }
+    
+    .footer__titler {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer__form {
+        margin-top: 25px;
+    }
+    
+    .main__option {
+        font-size: 15px;
+    }
+    
+     .main__img {
+        height: 180px;
+     }
+}

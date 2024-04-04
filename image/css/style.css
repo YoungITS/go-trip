@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.nav {
+    background: #3e8989;
+    padding: 37px 0;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu__link {
+    color: #fff;
+    display: block;
+    font-weight: 500;
+    padding-bottom: 5px;
+    transition: 0.5s;
+    border-bottom: 2px solid transparent;
+}
+
+.menu__link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.header__content {
+    background-image: url(../GO\ TRIP.png);
+    min-height: 780px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header__title {
+    font-size: 80px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.header__desc {
+    font-size: 40px;
+    padding-bottom: 50px;
+    font-weight: 500;
+}
+
+.header__butt {
+    font-size: 18px;
+    background: #B4436C;
+    border-radius: 30px;
+    padding: 14px;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 600;
+    transition: 0, 5s;
+}
+
+.header__butt:hover {
+    background: #fff;
+    color: #B4436C;
+}
+
+.main__text {
+    color: #3E8989;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+.main__paragraf {
+    color: #000000;
+    font-size: 18px;
+    display: flex;
+    padding-top: 9px;
+}
+
+.main__page {
+    color: #000000;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.main__image {
+    max-width: 545px;
+    width: 100%;
+}
+
+.main__line {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.main__colum {
+    max-width: 545px;
+    width: 100%;
+}
+
+.main__description {
+    color: #3E8989;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+.main__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main__card {
+    min-width: 263px;
+    width: 100%;
+}
+
+.main__img {
+    background: #EFEFEF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    padding: 5px;
+}
+
+.main__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main__option {
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: "Inter";
+    font-weight: 600;
+    display: block;
+    color: #000000;
+    text-align: center;
+}
+
+.main__option:hover {
+    color: #B4436C;
+}
+
+.main__contact {
+    font-size: 40px;
+    color: #3E8989;
+    font-family: "Inter";
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.main__info {
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.main__hrefs {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.main__numail {
+    color: #000000;
+}
+.main__mailr {
+    color: #000000;
+    margin-top: 20px;
+    display: block;
+}
+.footer{
+    background: #3E8989;
+    padding: 32px 0 15px;
+    margin-top: 104px;
+
+}
+.footer__information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__titler {
+    display: flex;
+    gap: 30px;
+   
+}
+
+.footer__titler a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer__action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__form {
+    display: flex;
+}
+.footer__option {
+    color:  #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 51px;
+}
+
+.footer__input {
+    font-family: "Rubik";
+    width: 216px;
+    height: 36px;
+    border-radius: 20px 0 0 20px;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+.footer__button {
+    font-size: 14px;
+    font-family: "Rubik";
+    width: 74px;
+    height: 35px;
+    background: #295E5E;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+}
